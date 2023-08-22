@@ -3,7 +3,6 @@ package com.message.chat.controller;
 import com.message.chat.repository.Response;
 import com.message.chat.repository.User;
 import com.message.chat.repository.UserInfo;
-import com.message.chat.repository.User;
 import com.message.chat.repository.UserRepository;
 import com.message.chat.service.UserDetailsServiceImpl;
 import com.message.chat.service.UserService;
@@ -13,7 +12,6 @@ import lombok.extern.slf4j.Slf4j;
 
 import java.util.Optional;
 
-import org.hibernate.validator.internal.util.logging.Log_.logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
